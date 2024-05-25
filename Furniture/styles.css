@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    background-color: #e5e1dc;      
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    cursor: pointer;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: inherit;
+    border: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            padding: 20px; /* Adjust the padding value as needed */
+        }
+
+        form {
+            padding: 20px; /* Adjust the padding value as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Feedback Form</h1>
+    <h4>We value your feedback! Please share your thoughts with us.</h4>
+    
+    <form action="" method="post">
+        <hr width="670px" align="left">
+        <!-- Name -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <hr width="670px" align="left">
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required><br>
+
+        <hr width="670px" align="left">
+
+        <!-- Rating -->
+            <label for="furnitureStyles">Rate your experience (On the scale of 1-5):</label><br>
+            <input type="radio" id="rating1" name="rating" >
+            <label for="style1">Bad</label><br>
+            <input type="radio" id="rating2" name="rating" >
+            <label for="style2">Good</label><br>
+            <input type="radio" id="rating3" name="rating" >
+            <label for="rating3">Excellent</label><br>
+    
+
+        <hr width="670px" align="left">
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <hr width="670px" align="left">
+
+        <!-- Feedback -->
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br>
+
+        <hr width="670px" align="left">
+
+        <!-- Preferred Furniture Styles -->
+        <input type="checkbox" id="style1" name="style1" value="Modern">
+        <label for="furnitureStyles">Select your preferred furniture style(s):</label><br>
+        <input type="checkbox" id="style2" name="style2" value="Vintage">
+        <label for="style1">Modern</label><br>
+        <input type="checkbox" id="style3" name="style3" value="Rustic">
+        <label for="style2">Vintage</label><br>
+        <input type="checkbox" id="style4" name="style4" value="Contemporary">
+        <label for="style3">Rustic</label><br>
+        <label for="style4">Contemporary</label><br>
+
+        <hr width="670px" align="left">
+
+        <input type="submit" value="Submit">
+        
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
